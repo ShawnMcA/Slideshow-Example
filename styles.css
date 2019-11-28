@@ -1,0 +1,66 @@
+/* ----- Globals -----*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 16px;
+    padding-top: 40px;
+}
+
+/* ----- Slideshow -----*/
+#slideshow {
+    height: 80vh;
+    width: 70vh;
+    background-color: rgba(0, 0, 0, .1);
+    background-image: url('assets/image.jpeg');
+    background-blend-mode: multiply;
+    background-size: cover;
+    margin: auto;
+}
+
+#slideshow-main {
+    height: 80vh;
+    width: 100%;
+}
+
+#slideshow-nav {
+    width: 100%;
+}
+
+/* ----- Buttons ----- */
+.btn {
+    width: 60px;
+    height: 30px;
+    border: none;
+    background: none;
+    color: #bbb;
+    font-size: 16px;
+}
+
+#prev-btn {
+    float: left;
+    margin-left: 25%;
+}
+
+#next-btn {
+    float: right;
+    margin-right: 25%;
+}
+
+.btn:active,
+.btn:focus,
+.btn:focus:active {
+    box-shadow: none;
+    outline: 0;
+}
+.btn:active {
+    background-color: #222
+}
+
